@@ -30,3 +30,11 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
  npm start #start gemini
 
 ```
+
+### 잘못 설치한 snap 삭제 방법
+
+```sh
+sudo snap remove gemini
+hash -r #해시 캐시 초기화 
+alias | grep gemini
+```

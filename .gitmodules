@@ -1,0 +1,3 @@
+[submodule "google-adk/adk-java-maven"]
+	path = google-adk/adk-java-maven
+	url = https://github.com/hundong2/adk-java-maven.git
